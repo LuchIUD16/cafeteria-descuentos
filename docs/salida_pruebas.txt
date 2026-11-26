@@ -1,0 +1,14 @@
+[PASA] Total $5.00 (sin descuento) -> total final 5.00 (esperado 5.00)
+[PASA] Total $10.00 (no supera el umbral) -> total final 10.00 (esperado 10.00)
+[PASA] Total $10.01 (supera el umbral) -> total final 8.51 (esperado 8.51)
+[PASA] Total $20.00 (15 %) -> total final 17.00 (esperado 17.00)
+[PASA] Total $100.00 (15 %) -> total final 85.00 (esperado 85.00)
+
+Pedido de ejemplo (polimorfismo en descripcion()):
+  - Bebida: Café americano ($3.50) - tamaño Mediano
+  - Bebida: Capuchino ($4.80) - tamaño Grande
+  - Comida: Sándwich de pollo ($6.20)
+  - Comida: Croissant ($2.90) - vegetariana
+[PASA] Pedido de ejemplo: total $17.40 con 15 % -> total final 14.79 (esperado 14.79)
+
+Todas las pruebas pasaron.
