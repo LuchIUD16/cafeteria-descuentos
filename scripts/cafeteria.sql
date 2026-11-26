@@ -1,5 +1,3 @@
--- Script para MariaDB (ejecutar en DBeaver sobre la conexión local de MariaDB).
--- Crea la base de datos "cafeteria", sus tablas y algunos productos de ejemplo.
 
 CREATE DATABASE IF NOT EXISTS cafeteria
     CHARACTER SET utf8mb4
